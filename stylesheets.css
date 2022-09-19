@@ -5,17 +5,16 @@
 }
 
 .bloque {
-    background-color: black;
+    background: rgb(0,0,0);
 
 }
 
 nav {
     background-color: #74EBD5;
-    background-image: -webkit-linear-gradient(0deg, #74EBD5 0%, #9FACE6 100%);
-    background-image: -moz-linear-gradient(0deg, #74EBD5 0%, #9FACE6 100%);
-    background-image: -o-linear-gradient(0deg, #74EBD5 0%, #9FACE6 100%);
-    background-image: linear-gradient(0deg, #74EBD5 0%, #9FACE6 100%);
-
+    background-image: -webkit-linear-gradient(270deg, #74EBD5 0%, #9FACE6 100%);
+    background-image: -moz-linear-gradient(270deg, #74EBD5 0%, #9FACE6 100%);
+    background-image: -o-linear-gradient(270deg, #74EBD5 0%, #9FACE6 100%);
+    background-image: linear-gradient(270deg, #74EBD5 0%, #9FACE6 100%);
 }
 
 a {
@@ -247,14 +246,20 @@ tr td {
     display: flex;
     flex-direction: row-reverse;
     text-align: center;
-    margin-right: 25px;
+    margin-left: 20px;
 
 
 }
 
 .contenedor__video p {
     color: rgb(0, 140, 255);
+    font-size: 13px;
+    margin-right: 20px;
+
 }
+
+
+
 
 @media screen and (max-width: 480px) {
 
